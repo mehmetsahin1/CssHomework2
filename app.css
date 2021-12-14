@@ -1,0 +1,71 @@
+/* Sayfa boşluğu sıfırlandı */
+body {
+	margin: 0;
+}
+/* P etiketlerinin tamamında boşluklar sıfırlandı */
+p {
+	margin: 0;
+}
+
+/* logo ortalandı */
+.logo {
+	display: flex;
+	justify-content: center;
+	margin-top: 65px;
+}
+
+/* arama alanı arka plan rengi ve ortalama işlemleri */
+.search {
+	background-color: rgb(238, 238, 238);
+	margin: 0 7vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 2px;
+}
+
+/* arama çubuğu genişliği ayarlandı */
+.search-input {
+	width: 300px;
+}
+
+/* linkler ortalandı */
+.links {
+	margin: 0 7vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* link grupları arka plan ve yazı ortalama işlemleri */
+.link-group {
+	background-color: rgb(126, 229, 218);
+	height: 80px;
+	text-align: center;
+}
+
+/* ilk link grubu için genişlik ayarı */
+.first-group {
+	width: 35%;
+}
+
+/* ikinci link grubu için genişlik ve font ayarı */
+.second-group {
+	width: 25%;
+	margin: 0 2px;
+	font-size: small;
+}
+
+/* üçüncü link grubu için genişlik ve font ayarı */
+.third-group {
+	width: 40%;
+	font-size: small;
+}
+
+/* telif hakkı yazısı ortalandı */
+.footer {
+	text-align: center;
+	margin-top: 20px;
+	font-size: small;
+}
